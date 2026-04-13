@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>分类内容</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;700;800&family=Noto+Sans+SC:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body class="detail-page">
+    <main class="shell">
+      <a class="back-link" href="/">返回首页</a>
+      <header class="detail-hero">
+        <p id="detail-kicker" class="page-kicker"></p>
+        <h1 id="detail-title" class="detail-title"></h1>
+        <p id="detail-desc" class="detail-desc"></p>
+      </header>
+      <section id="category-content" aria-live="polite"></section>
+    </main>
+    <script src="/site-data.js" defer></script>
+    <script src="/app.js" defer></script>
+  </body>
+</html>
